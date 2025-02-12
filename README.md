@@ -13,7 +13,7 @@ If I manage to find a good dataset about netball, I will talk about it here.
 In the meantime, here is a tiny dummy dataset so that I can test using tables and other markdown features.
 
 | Team name     | Wins   | Losses|
-| ------------- |:------:| -----:|
+| ------------- |:------:| :----:|
 | Team A        | 9      | 2     |
 | Team B        | 5      | 6     |
 | Team C        | 2      | 9     |
