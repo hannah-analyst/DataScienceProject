@@ -1,11 +1,10 @@
-## About me
-I am a Data & Insights analyst working in the public sector, using analysis and visualisation tools to assist and drive data-led decisions.
+## Project background
 
-I graduated in 2019 with a degree in maths and french, having studied various applied and pure maths topics, as well as spending a year living in France and learning maths at a french university! My first subsequent role was as a data analyst, with a focus on customer base profiling and pricing analysis. I moved a few years later into my current role where my focus is around improving processes to reach KPI targets and scrutiny of the public sector area that I work in.
+I am very passionate about the environment and what we as humans can do to protect it. Research has shown that following a vegan diet causes less harm to the planet than a traditional meat and dairy-based diet, due to various factors such as less land space required for raising animals, less water required for processing meat and dairy, fewer CO2 emissions, etc. Studies have also shown an increase in the number of people globally following a vegan diet, which would lead to less harm to the environment should this trend continue. An increase in 'veganism' would suggest a decrease in the meat supply required given that fewer people are eating meat. But can this be predicted? This project will attempt to answer the question: 
 
-Alongside this I am currently undertaking a degree apprenticeship in Data Science, in which I am learning new programs to conduct analyses as well as developing understanding of how data science can be implemented in the modern world.
+### "Has global meat supply increased over time despite the increased prevalance of vegan diets, and can future meat supply be predicted?"
 
-## My interests
-Outside of work, I am a keen sports player! Alongside standard gym fitness, I love to play netball - at nearly 6 feet tall it is a great use for my height! I am also passionate about the environment and the negative effects that human beahviours are causing to the climate, which has been the topic of one of my first data science projects. I love to learn about new ideas, and through my ongoing apprenticeship hope to hone my new skills and put them into useful practice in and out of the workplace.
+Being able to predict the meat supply required would lead to better comprehension of the harmful effects caused by raising and eating meat, and therefore better understanding of what state of the environment would be in after a certain amount of time.
 
-## My projects
+## 
+
