@@ -1,5 +1,3 @@
-# Hannah Analyst
-
 ## About me
 I am a Data & Insights analyst working in the public sector, using analysis and visualisation tools to assist and drive data-led decisions.
 
