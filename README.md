@@ -14,4 +14,4 @@ The dataset consists of the meat supply globally in kgs per person per capita, p
 
 ## Exploratory Data Analysis
 
-![alt text](https://github.com/[hannah-analyst]/[PredictingMeatSupply]/blob/[main]/line_graph_meat_supply.png?raw=true)
+![Meat supply over time](https://github.com/[hannah-analyst]/[PredictingMeatSupply]/blob/[main]/line_graph_meat_supply.png?raw=true)
