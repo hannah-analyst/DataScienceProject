@@ -28,31 +28,33 @@ We wouldn't expect any seasonal element to this model as the data is annual-only
 ![](assets/decomposed_components.png)
 *Figure 2*
 
-
+  
 The data is split into a train and test set - there are 62 years in the dataset i.e. 62 data points, and the last 15 are chosen to be the test set. Figure 3 demonstrates the split:
 
 ![](assets/train_test_split.png)
 *Figure 3*
-
-
+\
+\
 Figure 4 shows the plots of the autocorrelation and partial autocorrelation functions:
 
 ![](assets/acf_pacf_plots.png)
 *Figure 4*
 
 It again verifies a non-seasonal series due to the lack of 'wave' pattern in the lags, and is statistically significant at lag 5. The spikes at lag 1 and 2 in the PACF plot suggest these values should be used within the model parameters.
-
+\
+\
 The **auto_arima** Python function is used to build an ARIMA model by testing combinations of parameters to find the best set of *(p, d, q)*, and when run gives the following output:
 
 ![](assets/sarimax_results.png)
+\
+\
+Figure 5 visualises the predicted vs the actual meat supply
 
-The model outputs an R<sup>2</sup> score of 
-``` 0.507953929116781 ```
-and an MAPE value of
-``` 3.8039852254260493 ```
-indicating that the predicted values are within 3% of the actual values.
-
-Figure 5 visualises the predicted vs the actual meat supply.
-
-
+![](assets/train_test_predicted.png)
+*Figure 5*
+\
+\
+The model outputs an R<sup>2</sup> score of ``` 0.507953929116781 ``` and an MAPE value of ``` 3.8039852254260493 ``` indicating that the predicted values are within 3% of the actual values.
+\
+\
 
