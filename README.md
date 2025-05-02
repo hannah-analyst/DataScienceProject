@@ -44,4 +44,15 @@ It again verifies a non-seasonal series due to the lack of 'wave' pattern in the
 
 The **auto_arima** Python function is used to build an ARIMA model by testing combinations of parameters to find the best set of *(p, d, q)*, and when run gives the following output:
 
+![](assets/sarimax_results.png)
+
+The model outputs an R<sup>2</sup> score of 
+``` 0.507953929116781 ```
+and an MAPE value of
+``` 3.8039852254260493 ```
+indicating that the predicted values are within 3% of the actual values.
+
+Figure 5 visualises the predicted vs the actual meat supply.
+
+
 
