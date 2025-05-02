@@ -30,4 +30,9 @@ We wouldn't expect any seasonal element to this model as the data is annual-only
 
 The data is split into a train and test set - there are 62 years in the dataset i.e. 62 data points, and the last 15 are chosen to be the test set. Figure 3 demonstrates the split:
 
+![](assets/train_test_split.png)
+*Figure 3*
+
+
+
 
