@@ -28,14 +28,20 @@ We wouldn't expect any seasonal element to this model as the data is annual-only
 ![](assets/decomposed_components.png)
 *Figure 2*
 
+
 The data is split into a train and test set - there are 62 years in the dataset i.e. 62 data points, and the last 15 are chosen to be the test set. Figure 3 demonstrates the split:
 
 ![](assets/train_test_split.png)
 *Figure 3*
 
 
-
+Figure 4 shows the plots of the autocorrelation and partial autocorrelation functions:
 
 ![](assets/acf_pacf_plots.png)
 *Figure 4*
+
+It again verifies a non-seasonal series due to the lack of 'wave' pattern in the lags, and is statistically significant at lag 5. The spikes at lag 1 and 2 in the PACF plot suggest these values should be used within the model parameters.
+
+The **auto_arima** Python function is used to build an ARIMA model by testing combinations of parameters to find the best set of *(p, d, q)*, and when run gives the following output:
+
 
