@@ -12,6 +12,8 @@ The data is collected by the Food and Agricutlure Organization of the United Nat
 
 The dataset consists of the meat supply globally in kgs per person per capita, plus the year in which that value is seen. The aim of this project is to build a time-series predictive model within Python with the intention of being able to predict future values of meat supply. 
 
+**The Python script used to build the model was written in a Jupyter notebook, which you can access [here](assets/time_series_analysis_meat_supply.ipynb).**
+
 ## Exploratory Data Analysis
 
 Figure 1 visualises the meat supply by year:
