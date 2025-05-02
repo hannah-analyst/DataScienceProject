@@ -14,4 +14,12 @@ The dataset consists of the meat supply globally in kgs per person per capita, p
 
 ## Exploratory Data Analysis
 
-![Meat supply over time](assets/line_graph_meat_supply.png)
+Figure 1 visualises the meat supply by year:
+
+![](assets/line_graph_meat_supply.png) 
+*Figure 1*
+
+It is clear to see from this graph that global supply has increased continually over time, aside from the dip in 2020 which can be assumed is as due to the COVID-19 pandemic. But is it possible to build a model that can predict the future supply...?
+
+## The Analysis
+
