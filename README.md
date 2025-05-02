@@ -23,3 +23,11 @@ It is clear to see from this graph that global supply has increased continually 
 
 ## The Analysis
 
+We wouldn't expect any seasonal element to this model as the data is annual-only, but Figure 2 verifies this with a visual:
+
+![](assets/decomposed_components.png)
+*Figure 2*
+
+The data is split into a train and test set - there are 62 years in the dataset i.e. 62 data points, and the last 15 are chosen to be the test set. Figure 3 demonstrates the split:
+
+
