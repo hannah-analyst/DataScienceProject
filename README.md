@@ -55,6 +55,18 @@ Figure 5 visualises the predicted vs the actual meat supply
 \
 \
 The model outputs an R<sup>2</sup> score of ``` 0.507953929116781 ``` and an MAPE value of ``` 3.8039852254260493 ``` indicating that the predicted values are within 3% of the actual values.
-\
-\
+
+
+## The conclusion...
+That's a not-bad figure for R<sup>2</sup>, however the feeling among data scientists is generall that it is not a good metric for analysing the fit of a non-stationary time series - it's possible that a hig value is purely due to the higher variance that comes with non-stationarity rather than the measure of low error that it is supposed to be. So that isn't much use to us here. The MAPE value of 3% again looks pretty great, however it's clear from the line graph in Figure 5 that the model has struggled to adapt to the drop in meat supply in 2020, which doesn't fill one with confidence that it would be able to ebb and flow with future rises and falls.
+Those AIC and BIC values are nice and low, and the p-value is **well** below the statistically-significant threshold. However...
+
+I think the overarching issue here is that there just aren't enough data points yet. Usually a time series would be looking at monthly or even daily data in which there would be more than likely be massive ebbs and flows of trends, and that number of observations over several years would end up with a huge dataset that a training model can really sink its teeth into. And that just isn't the case here - between 1961 and 2022 there are only 62 data points, which isn't sufficient for a model to properly train on and use to accurately predict.
+
+There is only 'increase' in this data - the meat supply only increases, which realistically is expected anyway between these two timeframes as global population expanded. However there is no 'decrease' for the model to pick up on and train with, which gives no accountability of the fact that meat supply may yet start to drop as we realise we need to eat less of it.
+
+I would recommend that this experiment be repeated in several decades or later, as it would be interesting to analyse what the data looks like if the number of those following vegan diets does indeed increase...
+It would also be interesting to build a predictive model that includes all of the countries in the original dataset. It is possible that there are more fluctiations year-on-year among certain countries, and if a model were deemed accurate enough then it could be used as a method to determine where should be targeted for meat reducing initiatives.
+
+
 
