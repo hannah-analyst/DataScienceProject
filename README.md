@@ -36,3 +36,6 @@ The data is split into a train and test set - there are 62 years in the dataset 
 
 
 
+![](assets/acf_pacf_plots.png)
+*Figure 4*
+
